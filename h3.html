@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0px;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 100vh;
+        }
+       #order_container{
+        display: none;
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       }
+      .success_icon{
+        width: 100px;
+        height: 100px;
+        background-color: #28a745;
+        border-radius: 50%;
+        display: flex;
+        justify-content:center;
+        text-align: center;
+        margin: 0 auto 20px;
+        font-size: 70px;
+        color: white;
+      }
+      h1{
+        margin-top: 20px;
+      }
+      #order_title{
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      #order_message{
+        font-size: 26px;
+        color: #666;
+      }
+    </style>
+    </head>
+    <body>
+        <div id="Confirmation"></div>
+        <div class="success_icon">&#10003;</div>
+        <h1>Order Placed Successfully!</h1>
+        <p>We've sent you an email with the order details.</p>
+        <script>
+         document.addEventListener('DOMContentLoaded',()=>
+        {
+          //optionl:Add any additional functionality here 
+          console.log("Order confirmation page loadede.");
+        });
+        </script>
+    </body>
+    </html>
